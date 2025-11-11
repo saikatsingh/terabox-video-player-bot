@@ -3,15 +3,15 @@ import os
 # ============================================
 # TELEGRAM BOT CONFIGURATION
 # ============================================
-API_ID = int(os.getenv('API_ID', '123456'))
-API_HASH = os.getenv('API_HASH', 'your_api_hash')
-BOT_TOKEN = os.getenv('BOT_TOKEN', 'your_bot_token')
+API_ID = int(os.getenv('API_ID', '22244082'))
+API_HASH = os.getenv('API_HASH', 'fc90b0390b0130286c2676a19ed9c4da')
+BOT_TOKEN = os.getenv('BOT_TOKEN', '')
 
 # ============================================
 # ADMIN CONFIGURATION
 # ============================================
-ADMINS = [1234567890, 9876543210]  # Admin user IDs
-BOT_USERNAME = os.getenv('BOT_USERNAME', 'your_bot_username')
+ADMINS = [6917766710, 6400371201]  # Admin user IDs
+BOT_USERNAME = os.getenv('BOT_USERNAME', 'Cron_House_Bot')
 
 # ============================================
 # REDIS DATABASE CONFIGURATION
@@ -25,9 +25,9 @@ REDIS_PASSWORD = os.getenv('REDIS_PASSWORD', '')
 # ============================================
 # Supported: gplinks, droplink, earn4link, shrinkme, bitly, cutt.ly, etc.
 
-SHORTENER_API = os.getenv('SHORTENER_API', '')  # Your shortener API key
-SHORTENER_DOMAIN = os.getenv('SHORTENER_DOMAIN', 'gplinks.co')  # Domain name
-SHORTENER_TYPE = os.getenv('SHORTENER_TYPE', 'gplinks')  # gplinks, droplink, earn4link, shrinkme, bitly
+SHORTENER_API = os.getenv('SHORTENER_API', 'c2ed61ca6c91948204db4a4faad7ec5b78f019c3')  # Your shortener API key
+SHORTENER_DOMAIN = os.getenv('SHORTENER_DOMAIN', 'short2url.in')  # Domain name
+SHORTENER_TYPE = os.getenv('SHORTENER_TYPE', 'short2url')  # gplinks, droplink, earn4link, shrinkme, bitly
 
 # Example configurations for different shorteners:
 # GPLinks: API from gplinks.co/member/tools/api
@@ -46,13 +46,13 @@ VERIFICATION_URL = os.getenv('VERIFICATION_URL', 'https://your-website.com/verif
 # ============================================
 # FORCE SUBSCRIBE CONFIGURATION
 # ============================================
-FORCE_CHANNEL = os.getenv('FORCE_CHANNEL', '@YourChannel')  # Force subscribe channel
-FORCE_CHANNEL_ID = int(os.getenv('FORCE_CHANNEL_ID', '-1001234567890'))
+FORCE_CHANNEL = os.getenv('FORCE_CHANNEL', '@creazy_updates_zone')  # Force subscribe channel
+FORCE_CHANNEL_ID = int(os.getenv('FORCE_CHANNEL_ID', '-1002666935141'))
 
 # ============================================
 # STORAGE CONFIGURATION
 # ============================================
-PRIVATE_CHAT_ID = int(os.getenv('PRIVATE_CHAT_ID', '-1001234567890'))  # Storage channel
+PRIVATE_CHAT_ID = int(os.getenv('PRIVATE_CHAT_ID', '-1003475961397'))  # Storage channel
 DOWNLOAD_FOLDER = 'downloads'
 
 # ============================================
